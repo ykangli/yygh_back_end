@@ -7,6 +7,7 @@
         <module>model</module>
         <module>service</module>
     </modules>
+    <!--依赖管理-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -126,6 +127,7 @@
         </dependencies>
     </dependencyManagement>
 
+    <!--springboot打包插件-->
     <build>
         <plugins>
             <plugin>

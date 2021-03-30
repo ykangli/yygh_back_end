@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * 注解 @RestController主要包含 @Controller（交给spring管理），@ResponseBody（返回数据）
+ * 注解 @RestController主要包含 @Controller（交给spring管理），@ResponseBody（返回json数据）
  * 注解 @CrossOrigin表示允许跨域访问
  * @author Li
  */
@@ -82,7 +82,7 @@ public class HospitalSetController {
                                   @RequestBody (required = false) HospitalSetQueryVo hospitalSetQueryVo) {
         //创建page对象，传递当前页，每页记录数
         Page<HospitalSet> page = new Page<>(current, limit);
-        //构建条件
+        //构建查询条件
         QueryWrapper<HospitalSet> wrapper = new QueryWrapper<>();
         //医院名称
         String hosname = hospitalSetQueryVo.getHosname();
