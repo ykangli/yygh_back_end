@@ -3,7 +3,7 @@ package com.atguigu.yygh.common.result;
 import lombok.Getter;
 
 /**
- * 统一返回结果状态信息类
+ * @author Li
  */
 @Getter
 public enum ResultCodeEnum {

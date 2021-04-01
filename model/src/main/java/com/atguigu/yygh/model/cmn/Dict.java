@@ -61,6 +61,10 @@ public class Dict {
     @TableField("dict_code")
     private String dictCode;
 
+    /**
+     * 为了前端显示层级关系，但表中没有这个字段
+     * exist = false 表示可以没有这个字段，不然实体类与数据表不对应会报错
+     */
     @ApiModelProperty(value = "是否包含子节点")
     @TableField(exist = false)
     private boolean hasChildren;

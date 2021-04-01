@@ -15,9 +15,22 @@
     <modules>
         <module>service_user</module>
         <module>service_hosp</module>
+        <module>service_cmn</module>
     </modules>
 
     <dependencies>
+        <dependency>
+            <groupId>com.atguigu</groupId>
+            <artifactId>common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.atguigu</groupId>
+            <artifactId>model</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
         <dependency>
             <groupId>com.atguigu</groupId>
             <artifactId>service_util</artifactId>
