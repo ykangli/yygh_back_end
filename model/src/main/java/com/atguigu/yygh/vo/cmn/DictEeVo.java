@@ -3,6 +3,7 @@ package com.atguigu.yygh.vo.cmn;
 import com.alibaba.excel.annotation.ExcelProperty;
 import com.alibaba.excel.metadata.BaseRowModel;
 import lombok.Data;
+import lombok.Getter;
 
 /**
  * <p>
@@ -12,6 +13,7 @@ import lombok.Data;
  * @author qy
  */
 @Data
+@Getter
 public class DictEeVo {
 
 	@ExcelProperty(value = "id" ,index = 0)

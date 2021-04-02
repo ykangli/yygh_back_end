@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
+import lombok.Getter;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -18,6 +19,7 @@ import java.util.Map;
  * @author qy
  */
 @Data
+@Getter
 @ApiModel(description = "数据字典")
 @TableName("dict")
 public class Dict {

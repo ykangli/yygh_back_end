@@ -17,6 +17,15 @@
             <artifactId>common_util</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.alibaba/easyexcel -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>easyexcel</artifactId>
+            <scope>provided </scope>
+        </dependency>
+
+
     </dependencies>
 
     <build>
